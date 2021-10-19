@@ -1,0 +1,112 @@
+.form-group {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+}
+.alert-danger {
+	width: 800px;
+	height: 15px;
+    background: #FF0000;
+	color: white;
+    padding: 5px;	
+    font-weight: bold; 
+}
+.alert-success {
+	width: 800px;
+	height: 15px;
+    background: #00FF00;
+	color: white;
+    padding: 5px;	
+    font-weight: bold; 
+}
+.card-header {
+	font-weight: bold; 
+	font-size: 110%
+}
+.card-body {
+	padding: 5px;
+	font-size: 100%
+}
+.nav-link {
+	width: 800px;
+	height: 15px;
+    background: #4E9CAF;
+	text-align: center;
+    border-radius: 5px;
+    padding: 5px;	
+    font-weight: bold;  
+}
+
+.btnAdd {
+    display: block;
+    width: 300px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+	text-decoration: none;
+}
+.btnAdd:hover {background-color: #3e8e41}
+.btnEdit,.btnDelete {
+	display:inline-block;
+}
+.btnEdit {
+    display: block;
+    width: 80px;
+    height: 20px;
+    background: #4E9CAF;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+	text-decoration: none;
+	float: left;
+}
+.btnEdit:hover {background-color: #3e8e41}
+.btnDelete {
+    display: block;
+    width: 80px;
+    height: 20px;
+    background: #ff5050;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+	text-decoration: none;
+	float: right;
+}
+.btnDelete:hover {background-color: #ff0000}
+
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	list-style-type: none;
+	padding: 8px;
+}
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+td,th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}

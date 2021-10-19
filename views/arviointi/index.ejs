@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Arviointi</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/stylesheets/myStyle.css">
 </head>
 <body class="container" style="margin-top: 50px;">
 
     <% if (messages.success) { %>
-    <div class="alert alert-success" role="alert"><%- messages.success %></div>
+    <div class="alert-success" role="alert"><%- messages.success %></div>
     <% } %>
 
     <% if (messages.error) { %>
-    <div class="alert alert-danger" role="alert"><%- messages.error %></div>
+    <div class="alert-danger" role="alert"><%- messages.error %></div>
     <% } %>
 
     <div class="card"> 
@@ -23,7 +23,7 @@
                     <a class="nav-link">Arviointi</a>
                 </li>
                 <li class="nav-pill ml-auto">
-                    <a class="nav-link active" href="/arviointi/add">Lisää arviointi</a>
+                    <a class="btnAdd" href="/arviointi/add">Lisää arviointi</a>
                 </li>
             </ul>
         </div>
@@ -58,8 +58,8 @@
 					<td><%= data[i].Paivamaara%></td>
 					<td><%= data[i].Arvosana%></td>
                     <td>
-                        <a class="btn btn-success edit" href="../arviointi/edit/<%=data[i].idArviointi%>">Muokkaa</a>                       
-                        <a class="btn btn-danger delete" onclick="return alert('Oletko varma?')" href="../arviointi/delete/<%=data[i].idArviointi%>">Poista</a>                       
+                        <a class="btnEdit" href="../arviointi/edit/<%=data[i].idArviointi%>">Muokkaa</a>                       
+                        <a class="btnDelete" onclick="return alert('Oletko varma?')" href="../arviointi/delete/<%=data[i].idArviointi%>">Poista</a>                       
                     </td>
                 </tr>
             <% } %>
